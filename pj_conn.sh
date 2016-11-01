@@ -21,6 +21,7 @@ then
     sudo mount.cifs //win-zet.pjwstk.edu.pl/Users/s15029 user/ -o user=$2,pass=$3
 elif [ "$1" = "umount" ];
 then
+    cd ~
     sudo umount ~/pjwstk_vpn/public/
     sudo umount ~/pjwstk_vpn/user/
 else
