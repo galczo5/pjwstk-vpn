@@ -32,17 +32,24 @@ please reboot if connection is not visible
 Mouse Second Button Click on NetworkManager Applet -> Modify... -> Select "PJWSTK" on VPN section and click "Modify" button
 
 your student id is your username, example:
+
 ID: 123123
+
 username: s123123
 
 ![Config](/doc/nm-applet.png)
 
 # usage
 mounting shared directories:
+
 pj_conn mount <username> <password>
 
+
 $HOME/pjwstk_vpn/public - equivalent to P:/ partition
+
 $HOME/pjwstk_vpn/user - equivalent to Z:/ partition
 
+
 unmounting:
+
 pj_conn umount
